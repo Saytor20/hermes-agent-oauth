@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HermesAgent — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for HermesAgent, a personal, single-user AI assistant that integrates with Gmail, Google Drive, Google Calendar, and Google Sheets." />
+  <style>
+    :root { --ink: #1d2433; --muted: #5a6478; --line: #dfe3ea; --accent: #2b6cb0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; color: var(--ink); background: #f7f8fa;
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 56px 24px 40px; }
+    h1 { font-size: 28px; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 30px 0 8px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--ink); }
+    .meta { font-size: 14px; color: #93a0b4; margin-bottom: 6px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 22px 26px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 22px; }
+    footer { text-align: center; color: #93a0b4; font-size: 13px; padding: 10px 0 34px; }
+    .topline { display: inline-block; font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--accent); border: 1px solid #cfe0f3; background: #eaf2fb; padding: 4px 10px;
+      border-radius: 999px; margin-bottom: 14px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="topline" href="index.html">← HermesAgent home</a>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective October 30, 2026 · Applies to HermesAgent (personal, single-user application)</div>
+
+    <div class="card">
+      <p><strong>Short version:</strong> HermesAgent is a personal assistant that I (its author and
+      only user) run against my own Google Account using the official Google APIs. Data from Gmail,
+      Google Drive, Google Calendar, and Google Sheets is processed on my private server solely to
+      carry out tasks I ask the assistant to perform. Nothing is sold, nothing is used for
+      advertising, and access can be revoked at any time from
+      <a href="https://myaccount.google.com/permissions" rel="noopener">Google Account permissions</a>.</p>
+
+      <h2>1. Who this policy covers</h2>
+      <p>This policy covers <strong>HermesAgent</strong>, a personal, single-user application. It is
+      operated by its author for his own Google Account only and is not offered to, or usable by,
+      any other person. This page is published as required by the Google OAuth verification
+      process.</p>
+
+      <h2>2. Google data the agent accesses</h2>
+      <p>When granted authorization, the agent may access, depending on the task at hand:</p>
+      <ul>
+        <li><strong>Gmail</strong> — messages and attachments, to read, search, summarize, organize, and send email on request.</li>
+        <li><strong>Google Drive</strong> — file metadata and content, to open, read, organize, and create documents and files on request.</li>
+        <li><strong>Google Calendar</strong> — events, to check schedules, create, update, and manage calendar entries on request.</li>
+        <li><strong>Google Sheets</strong> — spreadsheet data, to read, edit, and organize sheets on request.</li>
+      </ul>
+      <p>The agent accesses only the scopes granted through a standard Google OAuth&nbsp;2.0 consent
+      screen, and only for the account of its owner.</p>
+
+      <h2>3. How the data is used</h2>
+      <p>Content from the connected Google services is used exclusively to perform the tasks that
+      its owner requests — for example, summarizing an email thread, drafting a reply, creating an
+      event, locating a document, or updating a spreadsheet. The application's purpose is task
+      automation for a personal account; it does not build user profiles, target advertising, or
+      market to anyone.</p>
+
+      <h2>4. Hosting and processing</h2>
+      <p>The agent runs on a single-tenant virtual private server operated by its author and hosted
+      with <strong>Hostinger</strong>. OAuth access tokens for the agent's own account are stored on
+      that server and are used only to connect to the relevant Google services. Content retrieved
+      from Google services is processed there to complete requested tasks.</p>
+
+      <h2>5. Third-party services</h2>
+      <p>To produce its responses, the assistant may transmit the content it is working on
+      (for example, an email being summarized or a document being drafted) to third-party machine
+      learning services used by the application to interpret requests and generate output. Such
+      content is used solely in service of the owner's task. No Google data is sold, rented, or
+      shared with any party for advertising purposes.</p>
+
+      <h2>6. What we do not do</h2>
+      <ul>
+        <li>I do not sell or rent Google data or any personal information.</li>
+        <li>Data is never used for advertising or to train commercial products.</li>
+        <li>This application does not serve other users and processes only the owner's own account.</li>
+      </ul>
+
+      <h2>7. Security</h2>
+      <p>Access to Google services happens over encrypted connections (TLS) using official Google
+      APIs. Access to the private server described in section 4 is restricted to its owner. The
+      server and the agent's software are kept updated with publicly available security fixes.</p>
+
+      <h2>8. Access revocation</h2>
+      <p>Authorization can be revoked at any time without contacting the author: visit
+      <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>
+      and remove HermesAgent. Revocation permanently ends the application's ability to read or act on
+      the connected Google services.</p>
+
+      <h2>9. Data requests</h2>
+      <p>Because this application serves a single user (its author), there is no third-party data
+      to delete. If you nonetheless have a question about this policy or the agent's handling of
+      Google data, contact the author through
+      <a href="https://github.com/Saytor20" rel="noopener">github.com/Saytor20</a>.</p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>If the agent's data practices change, this policy will be updated to describe them before
+      they take effect, and the revised policy will be published on this page.</p>
+    </div>
+  </main>
+  <footer>© 2026 Saytor20 · <a href="index.html">HermesAgent home</a> · Hosted on GitHub Pages</footer>
+</body>
+</html>
